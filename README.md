@@ -65,9 +65,11 @@ To run this project locally, follow these steps:
 
 4. Set up environment variables. Create a `.env` file in the root directory and add the following:
     ```bash
-    PORT=5000
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret_key
+    DB_USERNAME=
+    DB_PASSWORD=
+    ACCESS_SECRET_KEY=
+    REFRESH_SECRET_KEY=
+    DB=
     ```
 
 5. Run the application:
